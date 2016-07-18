@@ -1467,3 +1467,7 @@ transition: transform .25s;
 -ms-transform: translate3d(0, 0, 1px);
 transform: translate3d(0, 0, 1px);
 }
+
+header.bar.bar-nav {
+        -webkit-transform: translateZ(0);
+    }

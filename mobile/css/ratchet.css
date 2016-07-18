@@ -1469,5 +1469,6 @@ transform: translate3d(0, 0, 1px);
 }
 
 header.bar.bar-nav {
-        -webkit-transform: translateZ(0);
+        -webkit-transform: translateZ(1px);
     }
+

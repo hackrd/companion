@@ -442,7 +442,7 @@ p {
 .btn-link {
   padding-top: 6px;
   padding-bottom: 6px;
-  color: #428bca;
+  color: rgb(254, 224, 3) !important;
   background-color: transparent;
   border: 0;
 }
@@ -1277,6 +1277,7 @@ select {
   font-size: 24px;
   line-height: 1;
   text-decoration: none;
+  color: rgb(254, 224, 3) !important;
 
   -webkit-font-smoothing: antialiased;
 }

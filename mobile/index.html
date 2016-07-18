@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Ratchet template page</title>
+    <title>HACKRD 2016 Companion</title>
 
     <!-- Sets initial viewport load and disables zooming  -->
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
@@ -16,41 +16,73 @@
 
     <!-- Include the compiled Ratchet JS -->
     <script src="js/ratchet.js"></script>
+      
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+      
+      <!--- Favicon Crap --->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="favicon/manifest.json">
+    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="apple-mobile-web-app-title" content="Hack RD">
+    <meta name="application-name" content="Hack RD Companion">
+    <meta name="msapplication-TileColor" content="#ffc40d">
+    <meta name="msapplication-TileImage" content="favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    
+      
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
   </head>
   <body>
 
     <!-- Make sure all your bars are the first things in your <body> -->
     <header class="bar bar-nav">
-      <h1 class="title">Ratchet</h1>
+      <h1 class="title">Hack River Dell 2016</h1>
     </header>
 
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
-      <p class="content-padded">Thanks for downloading Ratchet. This is an example HTML page that's linked up to compiled Ratchet CSS and JS, has the proper meta tags and the HTML structure. Need some more help before you start filling this with your own content? Check out some Ratchet resources:</p>
+        <p class="content-padded">Welcome to Hack River Dell 2016. This companion app serves as your guide during the event.</p>
+        <p class="content-padded" style="background-color: #ffe200; color: black;"><B>NOTE:</B> It is HIGHLY recommend joining our Slack channel for the latest updates during this event. You should have received an e-mail invitation sent to the e-mail you registered with.</p>
+        <h4 class="content-padded">How may we help you?</h4>
       <div class="card">
         <ul class="table-view">
           <li class="table-view-cell">
             <a class="push-right" href="http://goratchet.com">
-              <strong>Ratchet documentation</strong>
+              <strong><i class="fa fa-map" aria-hidden="true"></i> Event Map</strong>
             </a>
           </li>
           <li class="table-view-cell">
             <a class="push-right" href="https://github.com/twbs/ratchet/">
-              <strong>Ratchet on Github</strong>
+              <strong><i class="fa fa-clock-o" aria-hidden="true"></i> Event Schedule</strong>
             </a>
           </li>
           <li class="table-view-cell">
             <a class="push-right" href="https://groups.google.com/forum/#!forum/goratchet">
-              <strong>Ratchet Google group</strong>
+              <strong><i class="fa fa-newspaper-o" aria-hidden="true"></i> News Feed</strong>
             </a>
           </li>
           <li class="table-view-cell">
             <a class="push-right" href="https://twitter.com/goratchet">
-              <strong>Ratchet on Twitter</strong>
+              <strong><i class="fa fa-info-circle" aria-hidden="true"></i> About this app</strong>
             </a>
           </li>
         </ul>
       </div>
+        
+        <div id="Schedule" class="modal">
+  <header class="bar bar-nav">
+    <a class="icon icon-close pull-right" href="#myModalexample"></a>
+    <h1 class="title">Modal</h1>
+  </header>
+
+  <div class="content">
+    <p class="content-padded">The contents of my modal go here. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+  </div>
+</div>
+        
+        
     </div>
 
   </body>

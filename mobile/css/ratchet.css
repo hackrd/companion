@@ -280,6 +280,18 @@ a:active {
     background-color: #2f2f2f !important;
     border-color: black !important;
     color: #fff !important;
+    
+}
+
+}
+body:before{
+    display: block;
+    content: " ";
+    height:20px;
+    top: 0;
+    background:rgba(0,0,0,0.8);
+    position:-webkit-sticky;
+    position:sticky;
 }
 
 .bar-nav ~ .content {

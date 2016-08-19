@@ -9,6 +9,8 @@
  */
 
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
+@import 'https://fonts.googleapis.com/css?family=Rubik:400,500,700,900';
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -17,7 +19,7 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'Rubik', sans-serif !important;
 }
 
 article,

@@ -361,6 +361,7 @@ h1, .h1 {
 
 h2, .h2 {
   font-size: 30px;
+  font-weight: 500 !important;
 }
 
 h3, .h3 {
@@ -778,7 +779,7 @@ input[type="button"] {
   color: inherit;
 }
 .table-view-cell > a:not(.btn):active {
-  background-color: #eee;
+  background-color: #141414;
 }
 .table-view-cell p {
   margin-bottom: 0;

@@ -244,10 +244,9 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
   font-size: 17px;
   line-height: 21px;
-  color: #000;
+  color: #000000 !important;
   background-color: #fff;
 }
 
@@ -268,8 +267,14 @@ a:active {
   bottom: 0;
   left: 0;
   overflow: auto;
+  padding-top: 50px !Important;
   -webkit-overflow-scrolling: touch;
-  background-color: #fff;
+  background-color: #303030;
+}
+
+.hp {
+    background-color: rgb(30,30,30) !Important;
+
 }
 
 .content > * {
@@ -279,8 +284,8 @@ a:active {
 }
 
 .bar-nav {
-    background-color: #2f2f2f !important;
-    border-color: black !important;
+    background-color: rgb(30, 30, 30) !important;
+    border-color: transparent !important;
     color: #fff !important;
     
 }

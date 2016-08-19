@@ -273,12 +273,12 @@ a:active {
 }
 
 .hp {
-    background-color: rgb(30,30,30) !Important;
+    background-color: rgb(30,30,30);
 
 }
 
 .hp-bar {
-    background-color: transparent !important;
+    background-color: #e71901 !important;
 }
 
 .content > * {
@@ -288,7 +288,7 @@ a:active {
 }
 
 .bar-nav {
-    background-color: rgb(30, 30, 30) !important;
+    background-color: rgb(22, 22, 22) !important;
     border-color: transparent !important;
     color: #fff !important;
     

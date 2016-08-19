@@ -246,7 +246,7 @@ body {
   left: 0;
   font-size: 17px;
   line-height: 21px;
-  color: #000000 !important;
+  color: #fff !important;
   background-color: #fff;
 }
 
@@ -275,6 +275,10 @@ a:active {
 .hp {
     background-color: rgb(30,30,30) !Important;
 
+}
+
+.hp-bar {
+    background-color: transparent !important;
 }
 
 .content > * {
@@ -381,7 +385,7 @@ p {
   margin-top: 0;
   margin-bottom: 10px;
   font-size: 14px;
-  color: #777;
+  color: #fff;
 }
 
 .btn {
@@ -723,8 +727,8 @@ input[type="button"] {
   margin: 10px;
   overflow: hidden;
   background-color: white;
-  border: 1px solid #ddd;
-  border-radius: 6px;
+  border: 1px solid #454545;
+  border-radius: 0px;
 }
 
 .card .table-view {
@@ -751,16 +755,16 @@ input[type="button"] {
   margin-top: 0;
   margin-bottom: 15px;
   list-style: none;
-  background-color: #fff;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  background-color: rgb(28, 28, 28);
+  border-top: 1px solid #454545;
+  border-bottom: 1px solid #454545;
 }
 
 .table-view-cell {
   position: relative;
   padding: 11px 65px 11px 15px;
   overflow: hidden;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #454545;
 }
 .table-view-cell:last-child {
   border-bottom: 0;
@@ -787,10 +791,10 @@ input[type="button"] {
   margin-top: -1px;
   margin-left: 0;
   font-weight: 500;
-  color: #999;
-  background-color: #fafafa;
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #ddd;
+  color: #a8a8a8;
+  background-color: rgb(34, 34, 34);
+  border-top: 1px solid #454545;
+  border-bottom: 1px solid #454545;
 }
 
 .table-view .media,

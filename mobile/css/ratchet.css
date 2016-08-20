@@ -1503,6 +1503,10 @@ header.bar.bar-nav {
         -webkit-transform: translateZ(1px);
     }
 
+.logo {
+  max-width: 95%;
+}
+
 @media only screen 
   and (orientation: landscape) { 
       
@@ -1518,4 +1522,12 @@ header.bar.bar-nav {
       .title {
           line-height: 10px;
       }
+      
+      .bar-nav ~ .content {
+  padding-top: 30px !important;
+}
+      .logo{
+          max-width: 55%;
+      }
+
 }

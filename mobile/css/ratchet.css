@@ -1515,6 +1515,10 @@ header.bar.bar-nav {
   margin-top: -10px;
       }
       
+      .refresh{
+          margin-top: -3px !important;
+      }
+      
       .bar {
   height: 40px;
       }

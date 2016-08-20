@@ -1503,3 +1503,19 @@ header.bar.bar-nav {
         -webkit-transform: translateZ(1px);
     }
 
+@media only screen 
+  and (orientation: landscape) { 
+      
+      .bar .btn-link {
+  line-height: 0px !Important;
+  margin-top: -10px;
+      }
+      
+      .bar {
+  height: 40px;
+      }
+      
+      .title {
+          line-height: 10px;
+      }
+}

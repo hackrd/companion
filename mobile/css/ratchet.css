@@ -11,6 +11,9 @@
 /*! normalize.css v3.0.1 | MIT License | git.io/normalize */
 @import 'https://fonts.googleapis.com/css?family=Rubik:400,500,700,900';
 
+
+
+
 html {
   font-family: sans-serif;
   -webkit-text-size-adjust: 100%;
@@ -362,6 +365,8 @@ h1, .h1 {
 h2, .h2 {
   font-size: 30px;
   font-weight: 500 !important;
+    padding: 20px;
+    text-align: left;
 }
 
 h3, .h3 {

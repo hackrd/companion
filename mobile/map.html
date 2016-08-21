@@ -33,6 +33,29 @@
     
       
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+      
+    <!--Jay from GitHub Script--> 
+    <script type="text/javascript">
+        (function(document,navigator,standalone) {
+            // Prevents links in apps from oppening in mobile Safari
+            // This javascript must be the first script in your <head>
+            if ((standalone in navigator) && navigator[standalone]) {
+                var curnode, location=document.location, stop=/^(a|html)$/i;
+                document.addEventListener('click', function(e) {
+                    curnode=e.target;
+                    while (!(stop).test(curnode.nodeName)) {
+                        curnode=curnode.parentNode;
+                    }
+                    // If you want this to affect all links and not just your app, use if('href' in curnode) instead.
+                    if('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) ) {
+                        e.preventDefault();
+                        location.href = curnode.href;
+                    }
+                },false);
+            }
+        })(document,window.navigator,'standalone');
+    </script>
+      
   </head>
   <body>
 
@@ -48,7 +71,10 @@
     <!-- Wrap all non-bar HTML in the .content div (this is actually what scrolls) -->
     <div class="content">
         <h2 class="content-padded" align="center">River Dell High School</h2>
-    <img src="img/map_holder.png" align="center" width="370px" hspace="15px">
+    <div class="content-padded">
+        <img src="img/map_holder.png" align="center" width="370px">
+    </div>
+    
         
     <ul>
         <li style="color:#ff6666">Hacking Space</li>

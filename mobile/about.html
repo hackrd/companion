@@ -33,6 +33,29 @@
     
       
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+      
+    <!--Jay from GitHub Script--> 
+    <script type="text/javascript">
+        (function(document,navigator,standalone) {
+            // Prevents links in apps from oppening in mobile Safari
+            // This javascript must be the first script in your <head>
+            if ((standalone in navigator) && navigator[standalone]) {
+                var curnode, location=document.location, stop=/^(a|html)$/i;
+                document.addEventListener('click', function(e) {
+                    curnode=e.target;
+                    while (!(stop).test(curnode.nodeName)) {
+                        curnode=curnode.parentNode;
+                    }
+                    // If you want this to affect all links and not just your app, use if('href' in curnode) instead.
+                    if('href' in curnode && ( curnode.href.indexOf('http') || ~curnode.href.indexOf(location.host) ) ) {
+                        e.preventDefault();
+                        location.href = curnode.href;
+                    }
+                },false);
+            }
+        })(document,window.navigator,'standalone');
+    </script>
+      
   </head>
   <body>
 
@@ -46,11 +69,17 @@
       <h1 class="title">About</h1>
     </header>
 
-  <div class="content">
+<div class="content">
+    
+<!-- Image below not diplaying for unknown reason -Greg -->
+<div class="content-padded">
+    <img src="img/cyberhawk.png" align="center" width="370px">
+</div>
+    
 <h2 class="content-padded">Hack River Dell Companion App</h2>
-    <ul class="table-view">
-  <li class="table-view-cell">Version Number:       1.0 Alpha Build (In Development)</li>
-  <li class="table-view-cell table-view-cell">Build Number:       1608d20r01</li>
+<ul class="table-view">
+  <li class="table-view-cell">Version Number: 1.0 Alpha Build (In Development)</li>
+  <li class="table-view-cell table-view-cell">Build Number: 1608d21r01</li>
         
 
   

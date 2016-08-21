@@ -729,7 +729,7 @@ input[type="button"] {
 }
 
 .card {
-  margin: 10px;
+  margin: 0px;
   overflow: hidden;
   background-color: white;
   border: 1px solid #454545;
@@ -758,7 +758,7 @@ input[type="button"] {
 .table-view {
   padding-left: 0;
   margin-top: 0;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   list-style: none;
   background-color: rgb(28, 28, 28);
   border-top: 1px solid #454545;
@@ -767,7 +767,7 @@ input[type="button"] {
 
 .table-view-cell {
   position: relative;
-  padding: 11px 65px 11px 15px;
+  padding: 20px 65px 20px 15px;
   overflow: hidden;
   border-bottom: 1px solid #454545;
 }

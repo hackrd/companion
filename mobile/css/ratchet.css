@@ -588,7 +588,7 @@ input[type="button"] {
   height: 50px;
   padding: 0;
   table-layout: fixed;
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #454545;
   border-bottom: 0;
 }
 .bar-tab .tab-item {
@@ -600,8 +600,11 @@ input[type="button"] {
   vertical-align: middle;
 }
 .bar-tab .tab-item.active, .bar-tab .tab-item:active {
-  color: #428bca;
+  color: #ffe200;
 }
+/*.tab-item{
+    color:#929292  
+}*/
 .bar-tab .tab-item .icon {
   top: 3px;
   width: 24px;
@@ -692,11 +695,11 @@ input[type="button"] {
 
 .badge {
   display: inline-block;
-  padding: 2px 9px 3px;
+  padding: 6px 9px 6px;
   font-size: 12px;
   line-height: 1;
-  color: #333;
-  background-color: rgba(0, 0, 0, .15);
+  color: #ffffff;
+  background-color: #d9534f;
   border-radius: 100px;
 }
 .badge.badge-inverted {

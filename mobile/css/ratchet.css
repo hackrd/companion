@@ -770,7 +770,7 @@ input[type="button"] {
 
 .table-view-cell {
   position: relative;
-  padding: 20px 65px 20px 15px;
+  padding: 15px 65px 15px 15px;
   overflow: hidden;
   border-bottom: 1px solid #454545;
 }

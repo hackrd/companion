@@ -1314,6 +1314,11 @@ select {
   -webkit-font-smoothing: antialiased;
 }
 
+.icon-inactive {
+    color: gray !Important;
+    
+}
+
 .icon-back:before {
   content: '\e80a';
 }

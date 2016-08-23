@@ -335,6 +335,9 @@ body:before{
 .content-padded {
   margin: 10px;
 }
+.content-extend {
+  margin: 0px;
+}
 
 .pull-left {
   float: left;

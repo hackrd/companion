@@ -59,16 +59,7 @@
     
       
   </head>
-  <body>
-      <!-- Auto Refresh once at start-->
-      <script type="text/javascript">
-         if(location.search.indexOf('reloaded=yes') < 0){
-            var hash = window.location.hash;
-            var loc = window.location.href.replace(hash, '');
-            loc += (loc.indexOf('?') < 0? '?' : '&') + 'reloaded=yes';
-            setTimeout(function(){window.location.href = loc + hash;}, 0);
-}
-      </script> 
+  <body> 
     <!-- Make sure all your bars are the first things in your <body> -->
     <header class="bar bar-nav">
         <!--
@@ -94,6 +85,7 @@
   </ul>
     </div>-->
       <a class="twitter-timeline" data-lang="en" data-theme="dark" data-link-color="#FAB81E" href="https://twitter.com/HackRiverDell">Tweets by HackRiverDell</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <p style="text-align:center;">Tap the refresh button if News Feed doesn't appear</p>
 </div>
       
       

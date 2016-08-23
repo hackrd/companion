@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="refresh" content="0" >
     <title>HACKRD 2016 Companion</title>
 
     <!-- Sets initial viewport load and disables zooming  -->
@@ -57,9 +56,19 @@
         })(document,window.navigator,'standalone');
     </script>
       
+    
+      
   </head>
   <body>
-
+      <!-- Auto Refresh once at start-->
+      <script type="text/javascript">
+         if(location.search.indexOf('reloaded=yes') < 0){
+            var hash = window.location.hash;
+            var loc = window.location.href.replace(hash, '');
+            loc += (loc.indexOf('?') < 0? '?' : '&') + 'reloaded=yes';
+            setTimeout(function(){window.location.href = loc + hash;}, 0);
+}
+      </script> 
     <!-- Make sure all your bars are the first things in your <body> -->
     <header class="bar bar-nav">
         <!--

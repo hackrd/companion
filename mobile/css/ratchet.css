@@ -260,7 +260,7 @@ a {
   -webkit-tap-highlight-color: transparent;
 }
 a:active {
-  color: #3071a9;
+  color: #ffe200;
 }
 
 .content {
@@ -272,16 +272,17 @@ a:active {
   overflow: auto;
   padding-top: 50px !Important;
   -webkit-overflow-scrolling: touch;
-  background-color: #303030;
+  background-color: #25292D;
 }
 
 .hp {
-    background-color: rgb(30,30,30);
+    background-color: #25292D;
 
 }
 
 .hp-bar {
-    background-color: #e71901 !important;
+    background-color: #1D2123 !important;
+    border-bottom: 1px solid #454545;
 }
 
 .content > * {
@@ -291,8 +292,9 @@ a:active {
 }
 
 .bar-nav {
-    background-color: rgb(22, 22, 22) !important;
+    background-color: #1D2123 !important;
     border-color: transparent !important;
+    border-bottom: 1px solid #454545;
     color: #fff !important;
     
 }
@@ -310,6 +312,7 @@ body:before{
 
 .bar-nav ~ .content {
   padding-top: 44px;
+    
 }
 
 .bar-header-secondary ~ .content {
@@ -428,8 +431,8 @@ p {
 }
 .btn-primary:active, .btn-primary.active {
   color: #fff;
-  background-color: #3071a9;
-  border: 1px solid #3071a9;
+  background-color: #ffe200;
+  border: 1px solid #ffe200;
 }
 
 .btn-positive {
@@ -618,6 +621,7 @@ input[type="button"] {
 .bar-tab .tab-item .icon ~ .tab-label {
   display: block;
   font-size: 11px;
+    color: #ffe200;
 }
 
 .bar .btn {
@@ -766,16 +770,16 @@ input[type="button"] {
   margin-top: 0;
   margin-bottom: 20px;
   list-style: none;
-  background-color: rgb(28, 28, 28);
-  border-top: 1px solid #454545;
-  border-bottom: 1px solid #454545;
+  background-color: #1D2123;
+  border-top: 1px solid #5D6A75;
+  border-bottom: 1px solid #5D6A75;
 }
 
 .table-view-cell {
   position: relative;
   padding: 13px 65px 13px 15px;
   overflow: hidden;
-  border-bottom: 1px solid #454545;
+  border-bottom: 1px solid #5D6A75;
 }
 .table-view-cell:last-child {
   border-bottom: 0;
@@ -803,9 +807,9 @@ input[type="button"] {
   margin-left: 0;
   font-weight: 0;
   color: #a8a8a8;
-  background-color: rgb(34, 34, 34);
-  border-top: 1px solid #454545;
-  border-bottom: 1px solid #454545;
+  background-color: #292e31;
+  border-top: 1px solid #5D6A75;
+  border-bottom: 1px solid #5D6A75;
 }
 
 .table-view .media,
@@ -1318,7 +1322,7 @@ select {
 }
 
 .icon-inactive {
-    color: gray !Important;
+    color: #5D6A75 !Important;
     
 }
 

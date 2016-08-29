@@ -12,7 +12,9 @@
 @import 'https://fonts.googleapis.com/css?family=Rubik:400,500,700,900';
 
 
-
+ul#ul-map {
+    align-content: center;
+}
 
 html {
   font-family: sans-serif;
